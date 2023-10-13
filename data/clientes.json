@@ -1,0 +1,12 @@
+[
+    {
+      "correo": "juan@perez.com",
+      "contraseña": "1234",
+      "rol": "admin"
+    },
+    {
+        "correo": "maria@lopez.com",
+        "contraseña": "1234",
+        "rol": "user"
+    }
+]

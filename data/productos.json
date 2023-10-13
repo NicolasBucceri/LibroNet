@@ -1,0 +1,163 @@
+[
+    {
+      "name": "El Misterio del Bosque Encantado",
+      "author": "Ana Rodríguez",
+      "price": 4229,
+      "description": "Una emocionante aventura que te llevará a descubrir los secretos ocultos en un misterioso bosque encantado.",
+      "genre": "Aventura",
+      "image_url": "https://images.cdn1.buscalibre.com/fit-in/360x360/16/38/16387f09901a1bbb04c65aed1579c94b.jpg"
+    },
+    {
+      "name": "La Ciudad de los Sueños Perdidos",
+      "author": "Juan Pérez",
+      "price": 15279,
+      "description": "Una novela de ciencia ficción que te transportará a una ciudad futurista donde los sueños cobran vida.",
+      "genre": "Ciencia Ficción",
+      "image_url": "https://image.cdn0.buscalibre.com/3208800.__RS360x360__.jpg"
+    },
+    {
+      "name": "Mitos Griegos",
+      "author": "María González",
+      "price": 9.99,
+      "description": "Una fascinante colección de los mitos y leyendas griegas más icónicos, que transportará a los lectores a la antigua Grecia.",
+      "genre": "Mitología",
+      "image_url": "https://www.normainfantilyjuvenil.com/ar/uploads/2019/05/resized/800_9789580428633.jpg"
+    },
+    {
+      "name": "El Secreto del Viejo Faro",
+      "author": "Carlos Martínez",
+      "price": 12900,
+      "description": "Un misterio en un viejo faro costero que desafiará la mente del detective protagonista y mantendrá a los lectores en vilo.",
+      "genre": "Misterio",
+      "image_url": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/457465.jpg"
+    },
+    {
+      "name": "Ana Frank - El Diario de una Joven",
+      "author": "Ana Frank",
+      "price": 12452,
+      "description": "El conmovedor y autobiográfico relato de Ana Frank, una joven judía que vivió escondida durante la Segunda Guerra Mundial y dejó un testimonio valioso de su experiencia.",
+      "genre": "Biografía",
+      "image_url": "https://images.cdn3.buscalibre.com/fit-in/360x360/43/57/4357f08f2ff8f21cbcc70910075d0960.jpg"
+    },    
+    {
+      "name": "Esparta vs. Atenas: La Guerra de los Dioses",
+      "author": "Roberto López",
+      "price": 5500,
+      "description": "Una épica narración de la legendaria guerra entre las poderosas ciudades-estado de Esparta y Atenas en el mundo de los dioses y héroes griegos.",
+      "genre": "Fantasía",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1538398834i/42109601.jpg"
+    },    
+    {
+      "name": "Julio César: El Rey sin Corona",
+      "author": "Elena Ramírez",
+      "price": 13.75,
+      "description": "Una biografía fascinante que relata la vida y los desafíos de Julio César, uno de los líderes más influyentes de la antigua Roma.",
+      "genre": "Biografía",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1543223842i/42957113.jpg"
+    },    
+    {
+      "name": "Cien Años de Soledad",
+      "author": "Gabriel García Márquez",
+      "price": 20647,
+      "description": "Una obra maestra de la literatura latinoamericana que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo de Macondo.",
+      "genre": "Realismo Mágico",
+      "image_url": "https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg"
+    },    
+    {
+      "name": "Pericles: El Gran Estratega de Atenas",
+      "author": "Isabel Torres",
+      "price": 20849,
+      "description": "Una biografía que relata la vida y el impacto de Pericles, uno de los más influyentes líderes de la antigua Atenas, en la historia de Grecia.",
+      "genre": "Biografía",
+      "image_url": "https://cloud10.todocoleccion.online/libros-segunda-mano-historia-antigua/tc/2022/01/01/15/309968858_tcimg_F7BE4F51.webp"
+    },
+    {
+      "name": "Los Juegos del Hambre",
+      "author": "Suzanne Collins",
+      "price": 2920,
+      "description": "La emocionante saga que sigue a Katniss Everdeen en su lucha por sobrevivir en los brutales Juegos del Hambre y desafiar al Capitolio opresivo.",
+      "genre": "Ciencia Ficción",
+      "image_url": "https://www.penguinlibros.com/ar/1604980-large_default/serie-los-juegos-del-hambre-1-los-juegos-del-hambre.jpg"
+    },
+    {
+      "name": "La Odisea",
+      "author": "Homero",
+      "price": 12.99,
+      "description": "La épica narración de los viajes y aventuras de Ulises mientras intenta regresar a su hogar después de la Guerra de Troya.",
+      "genre": "Épica",
+      "image_url": "http://biblioteca.tajamar.es/wp-content/uploads/2020/02/Las-aventuras-de-Ulises-Sut..jpg"
+    },
+    {
+      "name": "Aventuras en la Selva Amazónica",
+      "author": "Francisco Leal Quevedo",
+      "price":  14825,
+      "description": "Una emocionante expedición en la selva amazónica que enfrenta peligros y descubre tesoros ocultos.",
+      "genre": "Aventura",
+      "image_url": "https://www.loqueleo.com/co/uploads/2015/11/resized/800_9789587434828.jpg"
+    },
+    {
+      "name": "Ética a Nicómaco",
+      "author": "Aristóteles",
+      "price": 25543,
+      "description": "Una obra fundamental de la ética filosófica que explora la moralidad, la virtud y la búsqueda de la felicidad en la vida humana.",
+      "genre": "Filosofía",
+      "image_url": "https://images.cdn1.buscalibre.com/fit-in/360x360/f8/c9/f8c94c2951f614655369fde41b31b19d.jpg"
+    },
+    {
+      "name": "Mitología Nórdica",
+      "author": "Andrés López",
+      "price": 26897,
+      "description": "Una recopilación de las fascinantes sagas y mitos nórdicos que exploran la mitología y las historias del norte de Europa.",
+      "genre": "Mitología Nórdica",
+      "image_url": "https://images.cdn1.buscalibre.com/fit-in/360x360/9a/6d/9a6dfff58ce1d5262d40783f912da38b.jpg"
+    },    
+    {
+      "name": "El Tesoro del Pirata",
+      "author": "Carmen Martín",
+      "price": 19216,
+      "description": "Una emocionante búsqueda del tesoro pirata que lleva a un grupo de aventureros a lugares inexplorados y peligros inimaginables.",
+      "genre": "Aventura",
+      "image_url": "https://images.cdn1.buscalibre.com/fit-in/360x360/c5/06/c506ee7886ac411d2a2535dbf7d236f4.jpg"
+    },
+    {
+      "name": "El Misterio de la Casa Abandonada",
+      "author": "Felipe Ramírez",
+      "price": 20309,
+      "description": "Un misterio que rodea a una casa abandonada y un grupo de amigos decididos a descubrir la verdad.",
+      "genre": "Misterio",
+      "image_url": "https://images.cdn3.buscalibre.com/fit-in/360x360/1e/87/1e87728050344ca15d316645af7ecc69.jpg"
+    },
+    {
+      "name": "Yo, Robot",
+      "author": "Isaac Asimov",
+      "price": 10.99,
+      "description": "Una colección de historias que exploran las interacciones entre los robots y los humanos, estableciendo las famosas 'Leyes de la Robótica'.",
+      "genre": "Ciencia Ficción",
+      "image_url": "https://images.cdn1.buscalibre.com/fit-in/360x360/79/2f/792f48e890d9c589ffc9c9a1a8259306.jpg"
+    },    
+    {
+      "name": "Tres Estrellas: Luna, Sol y Espada",
+      "author": "Carlos García",
+      "price": 16695,
+      "description": "Una emocionante novela de fantasía que sigue la búsqueda de tres héroes en busca de las legendarias estrellas Luna, Sol y Espada, desafiando peligros y misterios en su camino.",
+      "genre": "Fantasía",
+      "image_url": "https://images.cdn2.buscalibre.com/fit-in/360x360/7c/7b/7c7bf6aff2ae4ba5d69b17aa81e460c8.jpg"
+    },    
+    {
+      "name": "El Principito",
+      "author": "Antoine de Saint-Exupéry",
+      "price": 13472,
+      "description": "Una fábula conmovedora que narra el encuentro entre un piloto estrellado en el desierto y un pequeño príncipe que viene de otro planeta.",
+      "genre": "Fábula",
+      "image_url": "https://images.cdn3.buscalibre.com/fit-in/360x360/f4/bc/f4bc25288107cfebe6a9cbc1e245c00a.jpg"
+    },    
+    {
+      "name": "La Odisea Espacial",
+      "author": "Arthur Clarke",
+      "price": 19994,
+      "description": "Una epopeya espacial que sigue a una tripulación en su viaje a través de las estrellas en busca de un nuevo hogar.",
+      "genre": "Ciencia Ficción",
+      "image_url": "https://images.cdn3.buscalibre.com/fit-in/360x360/3b/25/3b25f0fa174954ff4ef14b1811f1c530.jpg"
+    }
+  ]
+  

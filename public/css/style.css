@@ -1,0 +1,180 @@
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #343a40; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.navbar-brand {
+    color: #ffffff; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.nav-link {
+    color: #ffffff; 
+    font-size: 18px; 
+    margin-right: 20px; 
+}
+
+.nav-link:hover {
+    color: #17a2b8; 
+}
+
+.navbar-nav .active > .nav-link {
+    background-color: #17a2b8; 
+}
+
+#Nuevos h4{
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
+}
+#Nuevos p{
+    font-size: 17px;
+}
+.row-books{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px 0; 
+}
+
+@keyframes fadeInFromRightBook1 {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromLeftBook2 {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#Nuevos #libro-new-1 {
+  opacity: 0;
+  animation: fadeInFromRightBook1 4s ease forwards;
+}
+
+#Nuevos #libro-new-2 {
+  opacity: 0;
+  animation: fadeInFromLeftBook2 4s ease forwards;
+}
+
+#Nuevos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  animation: sectionInView 1s forwards;
+}
+
+@keyframes sectionInView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-custom {
+  margin-bottom: 2% !important;
+  background-color: #007BFF !important;
+  padding: 5% !important;
+  width: 70% !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px !important;
+  transition: background-color 0.3s;
+  margin: 0 1%;
+}
+
+.active-btn {
+  background-color: #17a2b8 !important; 
+}
+
+.btn-custom:hover {
+  background-color: #0056b3 !important;
+}
+
+
+#Destacados{
+    text-align: center !important;
+    padding: 5% !important;
+}
+.desta{
+    padding: 1% !important;
+}
+
+#categorias-destacadas{
+  margin-top: 2%;
+}
+#categorias-destacadas h2{
+  font-size: 40px !important;
+  margin-bottom: 2%;
+}
+
+.separador1{
+  margin-bottom: 1%;
+  margin-top: 7%;
+}
+.separador2{
+  margin-bottom: 1%;
+  margin-top: 7%;
+}
+.separador3{
+  margin-bottom: 1%;
+  margin-top: 7%;
+}
+.c1{
+  margin-bottom: 4% !important;
+}
+.c2{
+  margin-bottom: 4% !important;
+}
+.c3{
+  margin-bottom: 4% !important;
+}
+.c4{
+  margin-bottom: 4% !important;
+}
+
+.c1 p, .c2 p, .c3 p, .c4 p{
+  padding-top: 2%;
+}
+.c1 h3, .c2 h3, .c3 h3, .c4 h3{
+  padding-top: 8%;
+}

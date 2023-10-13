@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <title>Home</title>
+  <style>
+    .navbar {
+      background-color: #343a40;
+      font-family: 'Montserrat', sans-serif;
+   
+    }
+
+    .navbar-brand {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: #ffffff;
+      font-size: 18px;
+      margin-right: 20px;
+    }
+
+    .nav-link:hover {
+      color: #17a2b8;
+    }
+
+    .navbar-nav .active>.nav-link {
+      background-color: #17a2b8;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">LibroNet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/productos">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="soporte.html">Soporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/usuarios">Usuarios</a>
+          </li>
+        </ul>
+      </div>
+      <form class="d-flex ml-auto" role="search">
+        <a class="btn btn-outline-success me-2" href='/productos/nuevo'><i class="fa-solid fa-folder-plus"></i></a>
+        <a class="btn btn-outline-success me-2" href="/registro"><i class="fa-solid fa-user"></i></i></a>
+        <a class="btn btn-outline-success me-2" href="/login"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+      </form>
+    </div>
+  </nav>
+
+  <div id="banner" style="text-align: center;   overflow: hidden;">
+    <img src="img/banner-libreria.jpg" alt="Banner" style="object-fit: cover; width: 100%; height: 100%;">
+  </div>
+
+
+  <section id="Home" class="container mt-5 text-center">
+
+    <div class="row mt-3">
+      <div class="col-lg-4">
+        <button id="masPopularesButton" class="btn btn-custom active btn-section" data-bs-toggle="carousel"
+          data-bs-target="#masPopularesCarousel">Más
+          Populares</button>
+      </div>
+      <div class="col-lg-4">
+        <button class="btn btn-custom btn-section" data-bs-toggle="carousel"
+          data-bs-target="#recomendadosCarousel">Recomendados</button>
+      </div>
+      <div class="col-lg-4">
+        <button class="btn btn-custom btn-section" data-bs-toggle="carousel"
+          data-bs-target="#sagasCarousel">Sagas</button>
+      </div>
+    </div>
+
+    <div id="masPopularesCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://m.media-amazon.com/images/I/41XCt9P4s9L._SY445_SX342_.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 1" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://www.normainfantilyjuvenil.com/ar/uploads/2019/05/resized/800_9789580428633.jpg"
+                class="d-block w-100" style="max-width: 90%; height: 500px;" alt="Libro Popular 2" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg"
+                class="d-block w-100" style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/710073.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/457465.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="http://biblioteca.tajamar.es/wp-content/uploads/2020/02/Las-aventuras-de-Ulises-Sut..jpg"
+                class="d-block w-100" style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#masPopularesCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#masPopularesCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" ariahidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
+    </div>
+
+
+    <div id="recomendadosCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://www.normainfantilyjuvenil.com/ar/uploads/2019/05/resized/800_9789580428633.jpg"
+                class="d-block w-100" style="max-width: 90%; height: 500px;" alt="Libro Popular 2" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/457465.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1538398834i/42109601.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://www.penguinlibros.com/ar/1604980-large_default/serie-los-juegos-del-hambre-1-los-juegos-del-hambre.jpg" class="d-block w-100"
+              style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/f4/bc/f4bc25288107cfebe6a9cbc1e245c00a.jpg" class="d-block w-100"
+              style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://cloud10.todocoleccion.online/libros-segunda-mano-historia-antigua/tc/2022/01/01/15/309968858_tcimg_F7BE4F51.webp" class="d-block w-100"
+              style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#recomendadosCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#recomendadosCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" ariahidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
+    </div>
+
+
+    <div id="sagasCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://www.penguinlibros.com/ar/1604980-large_default/serie-los-juegos-del-hambre-1-los-juegos-del-hambre.jpg" class="d-block w-100"
+              style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/1e/87/1e87728050344ca15d316645af7ecc69.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/654997.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/704937.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/16/38/16387f09901a1bbb04c65aed1579c94b.jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+            <div class="col-md-4">
+              <img src="http://biblioteca.tajamar.es/wp-content/uploads/2020/02/Las-aventuras-de-Ulises-Sut..jpg" class="d-block w-100"
+                style="max-width: 90%; height: 500px;" alt="Libro Popular 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#sagasCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#sagasCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" ariahidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <section id="categorias-destacadas" class="container mt-5">
+    <div class="text-center separador1">
+      <img src="img/categorias-destacadas.jpg" alt="title" style="width: 80%;">
+    </div>
+
+    <div class="row c1">
+      <!-- Categoría: Ciencia Ficción -->
+      <div class="col-md-6">
+        <h3>Ciencia Ficción</h3>
+        <p>Explora nuestra amplia selección de novelas de ciencia ficción. Sumérgete en mundos imaginarios, tecnología
+          avanzada y aventuras galácticas que desafiarán tu mente.</p>
+        <a href="/productos" class="btn btn-primary">Ver más</a>
+      </div>
+      <div class="col-md-6">
+        <img src="img/ciencia-ficcion.jpg" alt="Ciencia Ficción" class="img-fluid" />
+      </div>
+    </div>
+
+    <div class="row mt-4 c2">
+      <!-- Categoría: Mitología -->
+      <div class="col-md-6">
+        <img src="img/mitologia.jpg" alt="Mitología" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <h3>Mitología</h3>
+        <p>Explora los misterios y las historias de la mitología de diferentes culturas. Descubre libros que te llevarán
+          a los tiempos antiguos y a las deidades que moldearon el mundo.</p>
+        <a href="/productos" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+    <div class="row c3">
+      <!-- Categoría: Misterio -->
+      <div class="col-md-6">
+        <h3>Misterio</h3>
+        <p>Adéntrate en el misterio y la intriga con nuestra selección de novelas de misterio. Resuelve enigmas, sigue a
+          detectives y vive emocionantes aventuras llenas de suspense.</p>
+        <a href="/productos" class="btn btn-primary">Ver más</a>
+      </div>
+      <div class="col-md-6">
+        <img src="img/misterio.jpg" alt="Misterio" class="img-fluid" />
+      </div>
+    </div>
+
+    <div class="row mt-4 c4">
+      <!-- Categoría: Aventuras -->
+      <div class="col-md-6">
+        <img src="img/Aventura.jpg" alt="Aventuras" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <h3>Aventuras</h3>
+        <p>Embárcate en emocionantes aventuras con nuestros libros de aventuras. Desde exploraciones en la jungla hasta
+          búsquedas de tesoros, encontrarás historias llenas de acción y emoción.</p>
+        <a href="/productos" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="Nuevos" class="container mt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="text-center separador2">
+          <img src="img/separador2.jpg" alt="title" style="width: 80%;">
+        </div>
+      </div>
+    </div>
+    <div id="libro-new-1" class="row row-books">
+      <div class="col-lg-7">
+        <h4>Descubre el nuevo Libro "España Misteriosa"</h4>
+        <p>
+          Sinopsis de GUIA DE LA ESPAÑA MISTERIOSA
+          Déjate atrapar por una tierra mágica, repleta de misterios y leyendas.
+        </p>
+        <p>
+          Pedro Amorós nos guía por increíbles lugares donde han ocurrido sucesos inexplicables, místicos y paranormales
+          que aún hoy plantean misteriosos enigmas. De su mano, visitaremos estos extraordinarios enclaves mágicos
+          cargados de historia, para comprender los sucesos extraños que han ocurrido y que aún tienen lugar.
+        </p>
+        <p>
+          Una visita guiada, acompañada por increíbles relatos y toda la experiencia de Pedro Amorós, que nos permitirá
+          comprender los sucesos extraños que han ocurrido y aún tienen lugar en enclaves mágicos como la abadía del
+          Sacromonte de Granada o la catedral de Santiago.
+        </p>
+        <p>
+          Emma Entrena y Silvia Ortiz son periodistas y están especializadas en comunicación transmedia. Amantes del
+          miedo y lo paranormal, dirigen el pódcast Terrores Nocturnos, referente sonoro en el mundo del misterio y del
+          crimen real, desde que se conocieron en Onda Cero en el año 2020. Sus cautivadores episodios, caracterizados
+          por una investigación exhaustiva, se mantienen cada semana entre los más escuchados en España. Ahora, con tres
+          millones y medio de escuchas por temporada y más de medio millón de seguidores en las redes sociales, se
+          embarcan en uno de sus mayores sueños: un libro con el que descubrir los rincones más misteriosos de España.
+        </p>
+        <p>
+          Terrores Nocturnos. España Misteriosa está editado por Rba Molino.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/libro-nuevo-1.jpg" alt="Nueva Novela" class="img-fluid" />
+      </div>
+    </div>
+
+    <div id="libro-new-2" class="row row-books">
+      <div class="col-lg-8">
+        <h4>Descubre el nuevo Libro "Artificial"</h4>
+        <p>
+          ARTIFICIAL - LA NUEVA INTELIGENCIA Y EL CONTORNO DE LO HUMANO
+        </p>
+        <p>
+          Ideas, herramientas y preguntas para aproximarse a la inteligencia artificial sin miedo, de la mano de Mariano
+          Sigman, uno de los neurocientíficos más destacados del mundo, y Santiago Bilinkis, emprendedor y tecnólogo.
+        </p>
+        <p>
+          Este no es un libro de oráculos o vaticinios, sino las reflexiones de dos autores que consideran que para
+          aproximarse al futuro será imprescindible navegar la ola de la inteligencia artificial. En una conversación
+          tan lúcida como estimulante, el neurocientífico superventas Mariano Sigman y el emprendedor Santiago Bilinkis
+          repasa el origen, las utilidades y los riesgos de esta tecnología. ¿Qué hará la humanidad con esta lámpara de
+          Aladino? ¿Cuál es el mejor escenario? ¿Cobrará más valor lo fabricado por personas? ¿Qué ocurrirá si supera
+          nuestras debilidades? Si bien exponen las razones por las que debemos ser cautos y responsables, huyen del
+          pesimismo. Muy al contrario, nos invitan pensar que de este desafío podemos sacar nuestra mejor versión.
+        </p>
+        <p>
+          MARIANO SIGMAN:
+          Mariano Sigman obtuvo su doctorado en neurociencia en Nueva York y fue investigador en París antes de volver a
+          Argentina. Es un referente en el mundo en la neurociencia de las decisiones, en neurociencia y educación, y en
+          la neurociencia de la comunicación humana. Es uno de los directores del proyecto Human Brain Project, el
+          esfuerzo más vasto del mundo para entender y emular el cerebro humano
+        </p>
+        <p>
+          Edad recomendada: Adultos.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/libro-nuevo-2.jpg" alt="Nueva Novela" class="img-fluid" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Destacados" class="container mt-5">
+    <div class="row">
+      <div class="text-center separador3">
+        <img src="img/separador3.jpg" alt="Título" style="width: 80%;">
+      </div>
+    </div>
+    <div class="row desta">
+      <div class="col-md-6">
+        <div class="card destacado">
+          <img src="img/libro-2-carousel.webp" alt="Libro Destacado 2" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">El Gran Gatsby</h3>
+            <p class="card-text">El gran Gatsby es una novela de 1925 escrita por el autor estadounidense F. Scott Fitzgerald que sigue a un grupo de personajes que viven en la ciudad ficticia de West Egg en la próspera Long Island, en el verano de 1922.</p>
+            <a href="/productos" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card destacado">
+          <img src="img/libro-3-carousel.webp" alt="Libro Destacado 2" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Harry Potter</h3>
+            <p class="card-text">El día de su cumpleaños, Harry Potter descubre que es hijo de dos hechiceros, de los
+              que heredó poderes mágicos. Debe asistir a una escuela de magia y hechicería, donde entabla una amistad
+              con dos jóvenes que se convertirán en sus compañeros de aventura.</p>
+            <a href="/productos" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row desta">
+      <div class="col-md-6">
+        <div class="card destacado">
+          <img src="img/libro-1-carousel.webp" alt="Libro Destacado 3" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">El código Da Vinci</h3>
+            <p class="card-text">El código Da Vinci es una novela de misterio escrita por Dan Brown y publicada por
+              primera vez por Random House en 2003. Se ha convertido en un superventas mundial, con más de 79 millones
+              de ejemplares vendidos y traducido a 44 idiomas.</p>
+            <a href="/productos" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card destacado">
+          <img src="img/libro-5-carousel.webp" alt="Libro Destacado 4" class="card-img-top" />
+          <div class="card-body">
+            <h3 class="card-title">Maze Runner</h3>
+            <p class="card-text">The Scorch Trials es el segundo libro de la saga Maze Runner, secuela de la primera
+              novela publicada en 2009, The Maze Runner. Se trata de literatura juvenil de distopía y ciencia ficción,
+              escrita por James Dashner. La novela fue publicada el 5 de octubre.</p>
+            <a href="/productos" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer class="bg-dark text-light">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Enlaces rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacto</h5>
+          <address>
+            <p>Dirección: 123 Calle Libros, Ciudad</p>
+            <p>Email: info@libronet.com</p>
+            <p>Teléfono: (123) 456-7890</p>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <h5>Síguenos</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-3">
+      <p>&copy; 2023 LibroNet. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      var recomendadosCarousel = document.getElementById("recomendadosCarousel");
+      var sagasCarousel = document.getElementById("sagasCarousel");
+
+      recomendadosCarousel.style.display = "none";
+      sagasCarousel.style.display = "none";
+
+      var botonesCarousel = document.querySelectorAll('button[data-bs-toggle="carousel"]');
+      botonesCarousel.forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          botonesCarousel.forEach(function (b) {
+            b.classList.remove("active");
+          });
+          var carruseles = document.querySelectorAll(".carousel");
+          carruseles.forEach(function (carrusel) {
+            carrusel.style.display = "none";
+          });
+          var target = boton.getAttribute("data-bs-target");
+          boton.classList.add("active");
+          document.querySelector(target).style.display = "block";
+        });
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).on('scroll', function () {
+        var windowHeight = $(window).height();
+        var scrollPos = $(window).scrollTop();
+
+        $('#Nuevos #libro-new-1, #Nuevos #libro-new-2').each(function () {
+          var offset = $(this).offset().top;
+
+          if (scrollPos > offset - windowHeight + 200) {
+            $(this).addClass('fadeInAnimation');
+          }
+        });
+      });
+    });
+
+  </script>
+  <script>
+    const btnSections = document.querySelectorAll('.btn-section');
+
+    btnSections.forEach((btn) => {
+      btn.addEventListener('click', () => {
+ 
+        btnSections.forEach((btn) => {
+          btn.classList.remove('active-btn');
+        });
+
+        btn.classList.add('active-btn');
+      });
+    });
+  </script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
